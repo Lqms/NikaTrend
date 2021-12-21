@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/bg.jpg);
+}
+
+.content{
+    max-width: 75%;
+    padding: 2.5%;
+    margin: 5vh auto;
+
+    box-shadow: 0 2em 4em rgba(0,0,0,0.25), 0 1em 1em rgba(0,0,0,0.22);
+    border-bottom-right-radius: 8%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgba(245, 245, 245, 0.329);
+}
+
+.content > *{
+    margin: 2% 0;
+}
+
+h1, h2{
+    font-family: 'Lobster', cursive;
+}
+
+h1{
+    background: linear-gradient(135deg,#fa0e2d 20%, #c617cc 30%, #1d12bc 70%, #41c1fc 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.img-wrapper{
+    width: 30vw;
+    height: 30vh;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-image: url("images/image0.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+h2{
+    font-size: 2em;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #18aaff, 0 0 30px #18aaff, 0 0 40px #18aaff, 0 0 55px #18aaff, 0 0 75px #18aaff;
+}
+
+h4{
+    font-size:1em;
+}
+
+p{
+    font-family: 'Caveat', cursive;
+    font-size: 2em;
+}
+
+.slider-changer{
+    position: absolute;
+    top: 0%;
+}
